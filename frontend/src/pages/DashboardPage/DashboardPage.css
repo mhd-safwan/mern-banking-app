@@ -1,0 +1,30 @@
+.dashboard-page {
+    padding: 2rem;
+    background-color: #f0f2f5;
+    color: #333;
+  }
+  
+  .dashboard-page h2, .dashboard-page h3 {
+    color: #001f3f;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  .pagination li {
+    display: inline;
+    padding: 0.5rem 1rem;
+    margin: 0 0.3rem;
+    cursor: pointer;
+    background-color: #007bff;
+    border-radius: 4px;
+  }
+  
+  .pagination li.active {
+    background-color: #001f3f;
+    color: white;
+  }
+  
